@@ -36,9 +36,7 @@ $d = date ('j');?>
 	<text transform="matrix(1 0 0 1 <?php if($d <10){ echo "153.626";} else {echo "109.8516";} ?>  233.0322)"><tspan x="0" y="0" fill="#326BB4" font-family="'MyriadPro-Bold'" font-size="170" letter-spacing="-6"><?php echo $d;?></tspan></text>
 </g>
 <g>
-
 	<rect x="72.833" y="111.333" fill="none" width="254.333" height="142.667"/>
-	
-		<text transform="matrix(1 0 0 1 <?php if($d <10){ echo "152.8257";} else {echo "109.0513";} ?>  232.0322)" fill="#E0DDCE" font-family="'MyriadPro-Bold'" font-size="170" letter-spacing="-6"><?php echo $d;?></text>
+	<text transform="matrix(1 0 0 1 <?php if($d <10){ echo "152.8257";} else {echo "109.0513";} ?>  232.0322)" fill="#E0DDCE" font-family="'MyriadPro-Bold'" font-size="170" letter-spacing="-6"><?php echo $d;?></text>
 </g>
 </svg>
